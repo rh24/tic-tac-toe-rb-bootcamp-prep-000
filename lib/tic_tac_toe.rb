@@ -120,7 +120,7 @@ end
 def play(board)
   until over?(board)
     if won?(board)
-      return "Congratulations #{winner(board)}!"
+      puts "Congratulations #{winner(board)}!"
     elsif draw?(board)
       return "Cat\'s Game!"
     else
